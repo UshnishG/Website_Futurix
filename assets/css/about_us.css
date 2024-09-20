@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fira code",Arial, sans-serif;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.core-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    gap: 32;
+}
+
+.core-team h1 {
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 32px;
+    flex-wrap: wrap;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* max-width: 900px; */
+}
+
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 180px;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+
+.designation {
+    margin: 10px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.name {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #ABB2BF;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+}
+
+/* Layout for 4 elements in the first row and 3 elements in the second row */
+.team-container .card {
+    flex: 1 1 calc(25% - 32px); /* Default to 25% width for first row */
+    /* padding-left: 12px;
+    padding-right: 12px; */
+}
+
+.team-container .card:nth-child(5),
+.team-container .card:nth-child(6),
+.team-container .card:nth-child(7) {
+    flex: 1 1 calc(33.33% - 20px); /* Set second row to 33.33% */
+    max-width: 330px;
+}
+
+.d_margin {
+    padding: 80px 20px;
+}
+
+
+.domain_name {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 80px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the member names */
+}
+
+.member {
+    padding: 10px;
+    margin: 5px;
+    flex: 1 1 calc(25% - 10px); /* Four items per row */
+    box-sizing: border-box;
+    text-align: center; /* Center names within each member box */
+}
+
+
+.member_name {
+    color: #ABB2BF;
+    font-size: 24px;
+    font-weight: 200;
+    transition: ease 0.2s;
+    cursor: default;
+}
+
+
+.member_name:hover {
+    color: #d0d8e7;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .team-container .card {
+        flex: 1 1 calc(50% - 20px); /* Two elements per row on smaller screens */
+    }
+
+    .member {
+        flex: 1 1 calc(50% - 10px); /* Two items per row */
+    }
+
+    .domain_name {
+        font-size: 40px; /* Smaller heading font size */
+        padding-bottom: 60px;
+    }
+
+    .member_name {
+        font-size: 20px; /* Adjust font size for member names */
+    }
+
+}
+
+@media (max-width: 480px) {
+    .team-container .card {
+        flex: 1 1 calc(100% - 20px); /* One element per row on very small screens */
+    }
+
+    .member {
+        flex: 1 1 calc(100% - 10px); /* One item per row */
+    }
+
+    .domain_name {
+        font-size: 30px; /* Even smaller heading font size */
+        padding-bottom: 40px;
+    }
+
+    .member_name {
+        font-size: 18px; /* Smaller font size for member names */
+    }
+}

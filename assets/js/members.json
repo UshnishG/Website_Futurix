@@ -1,0 +1,142 @@
+{
+    "Creatives": [
+        {
+            "Name": "Ritik Kumar",
+            "Year": "3"
+        },
+        {
+            "Name": "Dhureen Gulati",
+            "Year": "3"
+        },
+        {
+            "Name": "Ashutosh Singh Naruka",
+            "Year": "3"
+        }
+    ],
+    "Events": [
+        {
+            "Name": "Ambati Praneet Rao",
+            "Year": "3"
+        },
+        {
+            "Name": "Anushree Dixit",
+            "Year": "2"
+        },
+        {
+            "Name": "Debosmita Paul",
+            "Year": "2"
+        },
+        {
+            "Name": "Sivani S Iyer",
+            "Year": "3"
+        },
+        {
+            "Name": "Pratyush Kumar",
+            "Year": "3"
+        },
+        {
+            "Name": "Keshav Gupta",
+            "Year": "2"
+        },
+        {
+            "Name": "Anusha Srivastava",
+            "Year": "3"
+        },
+        {
+            "Name": "Akansha Zadoo",
+            "Year": "3"
+        }
+    ],
+    "Photography": [
+        {
+            "Name": "Dhureen Gulati",
+            "Year": "3"
+        },
+        {
+            "Name": "Abhi Kharel",
+            "Year": "2"
+        }
+    ],
+    "Publicity": [
+        {
+            "Name": "Palchin Choudhary",
+            "Year": "2"
+        },
+        {
+            "Name": "Raunak Raj",
+            "Year": "2"
+        },
+        {
+            "Name": "Aayush Mishra",
+            "Year": "2"
+        },
+        {
+            "Name": "Aadya Sengar",
+            "Year": "2"
+        },
+        {
+            "Name": "Harshita Dubey",
+            "Year": "2"
+        }
+    ],
+    "Sponsorship": [
+        {
+            "Name": "Ashutosh Pant",
+            "Year": "3"
+        }
+    ],
+    "Technical": [
+        {
+            "Name": "Bhavay Kaushal",
+            "Year": "3"
+        },
+        {
+            "Name": "PRAGYA APOORVA",
+            "Year": "2"
+        },
+        {
+            "Name": "Jayabrata Basu",
+            "Year": "2"
+        },
+        {
+            "Name": "Myadam Varshini",
+            "Year": "2"
+        },
+        {
+            "Name": "Sukhad Kaur",
+            "Year": "2"
+        },
+        {
+            "Name": "Ushnish Ghosal",
+            "Year": "2"
+        },
+        {
+            "Name": "Janav Gandhi",
+            "Year": "2"
+        },
+        {
+            "Name": "Iraa Jayakumar",
+            "Year": "2"
+        },
+        {
+            "Name": "Shrivatsa S Kulkarni",
+            "Year": "2"
+        },
+        {
+            "Name": "Ayushi Dhelia",
+            "Year": "3"
+        },
+        {
+            "Name": "Swastika Ray",
+            "Year": "2"
+        },
+        {
+            "Name": "Vanshika Sharma",
+            "Year": "2"
+        },
+        {
+            "Name": "Harshil Malhotra",
+            "Year": "2"
+        }
+    ]
+}
