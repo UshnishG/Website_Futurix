@@ -1,0 +1,59 @@
+/* General styling for the events section */
+.events-section {
+    background-color: #2d2f34;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.event {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-info {
+    width: 40%;
+}
+
+.event-title {
+    font-size: 24px;
+    color: #b68eff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.event-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.event-date {
+    font-size: 12px;
+    color: #cccccc;
+}
+
+/* Slideshow container styling */
+.slideshow-container {
+    max-width: 30%;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides img {
+    width: 30%;
+    height: 100px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image scales nicely */
+    border-radius: 5px;
+}
+
+/* Animation for fading in slides */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+}

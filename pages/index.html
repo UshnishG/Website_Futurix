@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futurix Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <navbar>
+
+    </navbar>
+    <section>
+        hero
+    </section>
+    <section>
+        about us
+    </section>
+    <section id="events" class="events-section">
+        <div class="event">
+            <div class="event-info">
+                <h2 class="event-title">Tech-Mesh</h2>
+                <p class="event-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus leo et nunc lacinia maximus. Ut nec massa. Praesent quis purus facilisis et.
+                </p>
+                <p class="event-date">29th - 1st October, 2023</p>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides1 fade">
+                    <img src="i1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides1 fade">
+                    <img src="i2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides1 fade">
+                    <img src="i3.jpg" style="width:100%">
+                </div>
+                <div class="mySlides1 fade">
+                    <img src="i4.jpg" style="width:100%">
+                </div>
+            </div>
+        </div>
+    
+        <div class="event">
+            <div class="event-info">
+                <h2 class="event-title">ULTRON-7.0</h2>
+                <p class="event-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus leo et nunc lacinia maximus. Ut nec massa. Praesent quis purus facilisis et.
+                </p>
+                <p class="event-date">20th - 22nd March, 2024</p>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides2 fade">
+                    <img src="i5.JPG" style="width:100%">
+                </div>
+                <div class="mySlides2 fade">
+                    <img src="image6.jpg" style="width:100%">
+                </div>
+                <div class="mySlides2 fade">
+                    <img src="image7.jpg" style="width:100%">
+                </div>
+                <div class="mySlides2 fade">
+                    <img src="image8.jpg" style="width:100%">
+                </div>
+            </div>
+        </div>
+    
+        <div class="event">
+            <div class="event-info">
+                <h2 class="event-title">Lens Lumina</h2>
+                <p class="event-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus leo et nunc lacinia maximus. Ut nec massa. Praesent quis purus facilisis et.
+                </p>
+                <p class="event-date">5th - 7th May, 2024</p>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides3 fade">
+                    <img src="i9.jpg" style="width:100%">
+                </div>
+                <div class="mySlides3 fade">
+                    <img src="i10.jpg" style="width:100%">
+                </div>
+                <div class="mySlides3 fade">
+                    <img src="i11.jpg" style="width:100%">
+                </div>
+                <div class="mySlides3 fade">
+                    <img src="i12.jpg" style="width:100%">
+                </div>
+            </div>
+        </div>
+        <h4>More events upcoming. Stay tuned!!</h4>
+    </section>
+    
+    
+    
+    <footer>
+        footer
+    </footer>
+    <script>
+        let slideIndex1 = 0;
+        let slideIndex2 = 0;
+        let slideIndex3 = 0;
+        showSlides();
+    
+        function showSlides() {
+            // Get all slides for the first event
+            let slides1 = document.getElementsByClassName("mySlides1");
+            // Get all slides for the second event
+            let slides2 = document.getElementsByClassName("mySlides2");
+            // Get all slides for the third event
+            let slides3 = document.getElementsByClassName("mySlides3");
+    
+            // First event slides
+            for (let i = 0; i < slides1.length; i++) {
+                slides1[i].style.display = "none";  
+            }
+            slideIndex1++;
+            if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
+            slides1[slideIndex1-1].style.display = "block";  
+    
+            // Second event slides
+            for (let i = 0; i < slides2.length; i++) {
+                slides2[i].style.display = "none";  
+            }
+            slideIndex2++;
+            if (slideIndex2 > slides2.length) {slideIndex2 = 1}    
+            slides2[slideIndex2-1].style.display = "block";  
+    
+            // Third event slides
+            for (let i = 0; i < slides3.length; i++) {
+                slides3[i].style.display = "none";  
+            }
+            slideIndex3++;
+            if (slideIndex3 > slides3.length) {slideIndex3 = 1}    
+            slides3[slideIndex3-1].style.display = "block";  
+    
+            // Sync the slides to change every 3 seconds
+            setTimeout(showSlides, 3000); 
+        }
+    </script>
+    
+    
+    
+</body>
+</html>
