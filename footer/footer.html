@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <footer>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Design</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .footer {
+            background-color: #2b2b2b;
+            color: #c3c3c3;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .footer .contact-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer .contact-info i {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #c3c3c3;
+        }
+
+        .footer .contact-info .email,
+        .footer .contact-info .phone {
+            color: #c3c3c3;
+            font-size: 18px;
+        }
+
+        .footer .logo {
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        .footer .logo img {
+            height: 50px;
+        }
+
+        .footer .contact-info.phone {
+            margin-left: auto;
+        }
+    </style>
+    <!-- Include Font Awesome for icons (optional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</footer>
+</head>
+<body>
+
+    <footer class="footer">
+        <div class="contact-info email">
+            <i class="fas fa-envelope"></i>
+            <span>&lt;MailID&gt;</span>
+        </div>
+        <div class="logo">
+            <!-- Replace with your logo image or text -->
+            <img src="logo.png" alt="FuturXTech Logo">
+        </div>
+        <div class="contact-info phone">
+            <i class="fas fa-phone"></i>
+            <span>&lt;PhoneNo&gt;</span>
+        </div>
+    </footer>
+
+</body>
+</html>
