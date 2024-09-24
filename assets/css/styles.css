@@ -1,0 +1,125 @@
+/* General styling for the events section */
+.events-section {
+    background-color: #2d2f34;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.event {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-info {
+    width: 40%;
+}
+
+.event-title {
+    font-size: 24px;
+    color: #b68eff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.event-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.event-date {
+    font-size: 12px;
+    color: #cccccc;
+}
+
+/* Slideshow container styling */
+.slideshow-container {
+    max-width: 30%;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides img {
+    width: 30%;
+    height: 100px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image scales nicely */
+    border-radius: 5px;
+}
+
+/* Animation for fading in slides */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+/*Styling for About Us Section*/
+
+.about-us-section {
+    background-color: #2d2f34;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about-us-section h2 {
+    font-size: 24px;
+    color: #b68eff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-us-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* Flexbox layout for About Us content */
+.about-us-content {
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Space between text and carousel */
+    flex-wrap: nowrap; /* Allows wrapping on small screens */
+    gap: 300px; /* Space between elements */
+}
+
+/* About Us Text */
+.about-us-text {
+    flex: 1 1 50%; /* Take up 50% of the container */
+}
+
+/* Carousel Wrapper */
+.carousel-wrapper {
+    flex: 1 1 50%; /* Take up 50% of the container */
+    overflow: hidden; /* Hide overflow */
+    border-radius: 10px;
+}
+
+/* Carousel and Images */
+.carousel {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+}
+
+.carousel-item img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .about-us-content {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+}
